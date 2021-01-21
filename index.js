@@ -492,16 +492,160 @@ case 'timer':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
-				case 'marvellogo':
+				case 'naruto':
 					var gh = body.slice(12)
-					if (args.length < 1) return reply(`Kirim perintah ${prefix}marvellogo teks, contoh ${prefix}marvellogo Nazwa Canss`)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}naruto teks, contoh ${prefix}naruto adam`)
                                         if (!isUser) return reply(mess.only.daftarB)
 					reply(mess.wait)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=snow&text=${gh}&apikey=BotWeA`, {method: 'get'})
+					anu = await fetchJson(`https://api.zeks.xyz/api/naruto?text=${gh}&apikey=apivinz`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
-
+                                case 'flower':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}flower teks, contoh ${prefix}flower adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/flowertext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+                              case 'croosfire':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}croosfire teks, contoh ${prefix}croosfire adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/crosslogo?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                               case 'silk':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}silk teks, contoh ${prefix}silk adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/silktext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                case 'wood':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}wood teks, contoh ${prefix}wood adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/woodentext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                case 'flaming':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}flaming teks, contoh ${prefix}flaming adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/flametext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                 case 'rainbow':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}rainbow teks, contoh ${prefix}rainbow adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/glowtext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                case 'smoke':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}smoke teks, contoh ${prefix}smoke adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/smoketext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                 case 'pubg':
+					var gh1 = body.slice(12)
+                                        var gh2 = body.slice(13)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}pubg teks, contoh ${prefix}pubg adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/pubglogo?text1=${gh1}&text2=${gh2}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                  case 'sky':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}sky teks, contoh ${prefix}sky adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/skytext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                  case 'cslogo':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}cslogo teks, contoh ${prefix}cslogo adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/cslogo?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                  case 'thunder':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}thunder teks, contoh ${prefix}thunder adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/thundertext?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                   case 'goldbutton':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}goldbutton teks, contoh ${prefix}goldbutton adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/gplaybutton?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                   case 'silverbutton':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}silverbutton teks, contoh ${prefix}silverbutton adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/splaybutton?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                  case 'graffiti':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}graffiti teks, contoh ${prefix}graffiti adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/grafiti?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                  case 'pantai':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}pantai teks, contoh ${prefix}pantai adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/tpantai?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
+                                 case 'epep':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}epep teks, contoh ${prefix}epep adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/epep?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break 
 				case 'artinama':
                   client.updatePresence(from, Presence.composing) 
                   if (!isUser) return reply(mess.only.daftarB)
@@ -620,7 +764,7 @@ case 'timer':
                                         if (!isUser) return reply(mess.only.daftarB)
 					teks = body.slice(7)
 					reply(mess.wait)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/nulis?text=halo&apikey=BotWeA`, {method: 'get'})
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/nulis?text=${teks}&apikey=BotWeA`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					buff = await getBuffer(anu.result)
 					client.sendMessage(from, buff, image, {quoted: mek, caption: mess.success})
@@ -694,9 +838,9 @@ case 'timer':
 					reply(teks.trim())
 					break  
 					case 'bpink':
-              
+                  tels = body.slice(6)
                   if (args.length < 1) return reply(`Masukan Teks\nContoh : ${prefix}Caliph Bot`)
-                data = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${body.slice(7)}`)
+                data = await getBuffer(`https://api.zeks.xyz/api/logobp?text=${tels}&apikey=apivinz`)
                 if (!iUser) return reply(mess.only.daftarB)
                 client.sendMessage(from, data, image, {quoted: mek, caption: body.slice(7)})
                 break
@@ -908,7 +1052,8 @@ case 'timer':
 					}
 					break
 				case 'alay':
-                    client.updatePresence(from, Presence.composing) 
+                    client.updatePresence(from, Presence.composing)
+                    tels = body.slice(6) 
                     if (!isUser) return reply(mess.only.daftarB)
                     data = await fetchJson(`https://arugaz.herokuapp.com/api/bapakfont?kata=${body.slice(6)}`)
                     reply(data.result)
@@ -959,7 +1104,8 @@ case 'timer':
 					reply(anu.result)
 					break
 			case 'igstalk':
-                      hmm = await fetchJson(`https://freerestapi.herokuapp.com/api/v1/igs?u=${body.slice(9)}`)
+                       tels = body.slice(9)
+                      hmm = await fetchJson(`https://freerestapi.herokuapp.com/api/v1/igs?u=${tels}`)
                      buffer = await getBuffer(hmm.data.profilehd)
                      hasil = `Fullname : ${hmm.data.fullname}\npengikut : ${hmm.data.follower}\nMengikuti : ${hmm.data.following}\nPrivate : ${hmm.data.private}\nVerified : ${hmm.data.verified}\nbio : ${hmm.data.bio}`
                     client.sendMessage(from, buffer, image, {quoted: mek, caption: hasil})
