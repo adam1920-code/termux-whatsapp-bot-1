@@ -2,7 +2,7 @@ const help = (prefix) => {
 	return `
 「 *BOT_NAME* 」
 
-DONASI: *085880029049*
+DONASI PULSA: *085880029049*
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
