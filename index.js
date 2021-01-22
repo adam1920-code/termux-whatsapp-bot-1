@@ -501,6 +501,24 @@ case 'timer':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+                                 case 'mafia':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}mafia teks, contoh ${prefix}mafia adam`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/mafialogo?text=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+                                 case 'ssweb':
+					var gh = body.slice(12)
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}ssweb web, contoh ${prefix}ssweb web`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://api.zeks.xyz/api/ssweb?url=${gh}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
                                 case 'flower':
 					var gh = body.slice(12)
 					if (args.length < 1) return reply(`Kirim perintah ${prefix}flower teks, contoh ${prefix}flower adam`)
