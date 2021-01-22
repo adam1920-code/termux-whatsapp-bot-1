@@ -51,6 +51,7 @@ DONASI: *085880029049*
   ├─ 🔱 ${prefix}herrypotter
   ├─ 🔱 ${prefix}pubglogo
   └─ 🔱 ${prefix}quotemaker
+  └─ 🔱 ${prefix}calender
 ◪ *MEDIA*
   │
   ├─ 🔱 ${prefix}trendtwit
@@ -64,6 +65,7 @@ DONASI: *085880029049*
   ├─ 🔱 ${prefix}quotes
   ├─ 🔱 ${prefix}quotes2
   └─ 🔱 ${prefix}artinama
+  └─ 🔱 ${prefix}artimimpi
 ◪ *KERANG AJAIB*
   │
   ├─ 🔱 ${prefix}apakah
