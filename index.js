@@ -75,7 +75,7 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Adam Oey19🖤\n' // full name
+            + 'FN:Adam Oey19🔱\n' // full name
             + 'ORG:Yeongsill Bot;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6283153843600:+62 831 5384-3600\n' // WhatsApp ID + phone number
             + 'END:VCARD'
@@ -266,7 +266,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["12542123926@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["6283153843600@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -284,7 +284,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '12542123926@s.whatsapp.net'
+                        const NomerOwner = '6283153843600@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/
@@ -647,9 +647,17 @@ case 'timer':
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break 
 				case 'artinama':
+                     tels = body.slice(10)
                   client.updatePresence(from, Presence.composing) 
                   if (!isUser) return reply(mess.only.daftarB)
-                    data = await fetchJson(`https://arugaz.herokuapp.com/api/artinama?nama=${body.slice(10)}`)
+                    data = await fetchJson(`https://arugaz.herokuapp.com/api/artinama?nama=${tels}`)
+                   reply(data.result)
+                   break
+                 case 'artimimpi':
+                     tels = body.slice(10)
+                  client.updatePresence(from, Presence.composing) 
+                  if (!isUser) return reply(mess.only.daftarB)
+                    data = await fetchJson(`https://arugaz.my.id/api/primbon/tafsirmimpi?mimpi=${tels}`)
                    reply(data.result)
                    break
 		case 'infonomor':
@@ -782,6 +790,7 @@ case 'timer':
 			tels = body.slice(6)
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${tels}&apikey=BotWeA`, {method: 'get'})
                if (!isUser) return reply(mess.only.daftarB)
+               if (!isOwner) return reply(mess.only.ownerB)
                if (data.error) return reply(data.error)
                  infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${data.result.judul}\nAlbum : ${data.result.album}\nDipublikasi : ${data.result.dipublikasi}`
                 buffer = await getBuffer(data.result.thumb)
@@ -1402,7 +1411,8 @@ case 'timer':
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
-                         case 'play':   
+                         case 'play':  
+                    if (!isOwner) return reply(mess.only.ownerB)
 	          if (!isUser) return reply(mess.only.daftarB)
                 reply(mess.wait)
                 play = body.slice(5)
