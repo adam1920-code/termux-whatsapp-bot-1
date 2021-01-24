@@ -3,6 +3,8 @@ const help = (prefix) => {
 「 *YEONGSILL BOT* 」
 
 DONASI PULSA: *085880029049*
+BUAT BOT    : *HANYA 35K*
+FOLLOW IG   : *@adam_oey107*
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
