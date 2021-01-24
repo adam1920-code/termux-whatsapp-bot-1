@@ -5,23 +5,20 @@ const help = (prefix) => {
 DONASI PULSA: *085880029049*
 BUAT BOT    : *HANYA 35K*
 FOLLOW IG   : *@adam_oey107*
+NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Creator: ADAM OEY19
 ◪ *ABOUT*
-  │
-  ├─ 🔱 ${prefix}info
   ├─ 🔱 ${prefix}blocklist
-  ├─ 🔱 ${prefix}ping
   └─ 🔱 ${prefix}bugreport
 ◪ *MAKER*
-  │
   ├─ 🔱 ${prefix}sticker
   ├─ 🔱 ${prefix}stickergif
   ├─ 🔱 ${prefix}toimg
-  ◪ *GROUP*
-  │
+  ├─ 🔱 ${prefix}tts id (teks)
+◪ *GROUP*
   ├─ 🔱 ${prefix}opengc
   ├─ 🔱 ${prefix}closegc
   ├─ 🔱 ${prefix}promote
