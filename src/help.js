@@ -48,6 +48,9 @@ DONASI PULSA: *085880029049*
   ├─ 🔱 ${prefix}bcgc
   ├─ 🔱 ${prefix}clone
   └─ 🔱 ${prefix}clearall
+  └─ 🔱 ${prefix}joox (teks)
+  └─ 🔱 ${prefix}play (teks)
+  └─ 🔱 ${prefix}pinterest (teks)
 ◪ *ADAM OEY19*
 `
 }
