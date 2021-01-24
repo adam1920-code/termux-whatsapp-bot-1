@@ -919,6 +919,7 @@ case 'timer':
                                         tels = body.slice(11)
 					client.updatePresence(from, Presence.composing) 
 					data = await fetchJson(`https://api.fdci.se/rep.php?gambar=${tels}`, {method: 'get'})
+                                        if (!isOwner) return reply(mess.only.ownerB)
                                         if (!isUser) return reply(mess.only.daftarB)
 					reply(mess.wait)
 					n = JSON.parse(JSON.stringify(data));
@@ -1249,7 +1250,7 @@ case 'timer':
                      const bug = body.slice(5)
                       if (pesan.length > 300) return client.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       teks1 = `*[REPORT]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
+                       teks1 = `*[REPORT]*\nNomor : @${nomor.split("6283153843600@s.whatsapp.net")[0]}\nPesan : ${pesan}`
                       var options = {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
