@@ -13,11 +13,9 @@ NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
 ◪ *ABOUT*
   ├─ 🔱 ${prefix}blocklist
   └─ 🔱 ${prefix}bugreport
-◪ *MAKER*
-  ├─ 🔱 ${prefix}sticker
-  ├─ 🔱 ${prefix}stickergif
-  ├─ 🔱 ${prefix}toimg
-  ├─ 🔱 ${prefix}tts id (teks)
+◪ *MUSIC DOWNLOAD*
+  ├─ 🔱 ${prefix}music [judul lagu]
+  ├─ 🔱 ${prefix}play  [judul lagu]
 ◪ *GROUP*
   ├─ 🔱 ${prefix}opengc
   ├─ 🔱 ${prefix}closegc
@@ -47,8 +45,6 @@ NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
   ├─ 🔱 ${prefix}bcgc
   ├─ 🔱 ${prefix}clone
   └─ 🔱 ${prefix}clearall
-  └─ 🔱 ${prefix}joox (teks)
-  └─ 🔱 ${prefix}play (teks)
   └─ 🔱 ${prefix}pinterest (teks)
 ◪ *ADAM OEY19*
 `
