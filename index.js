@@ -804,11 +804,10 @@ case 'timer':
               hasil = `${data.result}`
               reply(hasil)
               break
-				case 'joox':
+				case 'music':
 			tels = body.slice(6)
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${tels}&apikey=BotWeA`, {method: 'get'})
                if (!isUser) return reply(mess.only.daftarB)
-               if (!isOwner) return reply(mess.only.ownerB)
                if (data.error) return reply(data.error)
                  infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${data.result.judul}\nAlbum : ${data.result.album}\nDipublikasi : ${data.result.dipublikasi}`
                 buffer = await getBuffer(data.result.thumb)
@@ -1431,7 +1430,6 @@ case 'timer':
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
                          case 'play':  
-                    if (!isOwner) return reply(mess.only.ownerB)
 	          if (!isUser) return reply(mess.only.daftarB)
                 reply(mess.wait)
                 play = body.slice(5)
