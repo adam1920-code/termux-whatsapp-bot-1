@@ -14,7 +14,7 @@ NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
   ├─ 🔱 ${prefix}blocklist
   └─ 🔱 ${prefix}bugreport
 ◪ *MUSIC DOWNLOAD*
-  ├─ 🔱 ${prefix}music [judul lagu]
+  ├─ 🔱 ${prefix}joox [judul lagu]
   ├─ 🔱 ${prefix}play  [judul lagu]
 ◪ *GROUP*
   ├─ 🔱 ${prefix}opengc
