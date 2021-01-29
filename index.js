@@ -804,7 +804,7 @@ case 'timer':
               hasil = `${data.result}`
               reply(hasil)
               break
-				case 'music':
+				case 'joox':
 			tels = body.slice(6)
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${tels}&apikey=BotWeA`, {method: 'get'})
                if (!isUser) return reply(mess.only.daftarB)
