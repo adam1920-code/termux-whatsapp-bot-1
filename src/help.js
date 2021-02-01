@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *YEONGSILL BOT* 」
+「 *MUSIC BOT™* 」
 
 DONASI PULSA: *085880029049*
 BUAT BOT    : *HANYA 35K*
@@ -11,41 +11,8 @@ NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Creator: ADAM OEY19
 ◪ *ABOUT*
-  ├─ 🔱 ${prefix}blocklist
-  └─ 🔱 ${prefix}bugreport
-◪ *MUSIC DOWNLOAD*
-  ├─ 🔱 ${prefix}joox [judul lagu]
-  ├─ 🔱 ${prefix}play  [judul lagu]
-◪ *GROUP*
-  ├─ 🔱 ${prefix}opengc
-  ├─ 🔱 ${prefix}closegc
-  ├─ 🔱 ${prefix}promote
-  ├─ 🔱 ${prefix}demote
-  ├─ 🔱 ${prefix}tagall
-  ├─ 🔱 ${prefix}tagall2
-  ├─ 🔱 ${prefix}tagall3
-  ├─ 🔱 ${prefix}tagall4
-  ├─ 🔱 ${prefix}tagall5
-  ├─ 🔱 ${prefix}kick
-  ├─ 🔱 ${prefix}listadmins
-  ├─ 🔱 ${prefix}linkgroup
-  ├─ 🔱 ${prefix}leave
-  ├─ 🔱 ${prefix}welcome
-  ├─ 🔱 ${prefix}nsfw
-  ├─ 🔱 ${prefix}leveling
-  ├─ 🔱 ${prefix}level
-  ├─ 🔱 ${prefix}delete
-  ├─ 🔱 ${prefix}simih
-  └─ 🔱 ${prefix}ownergroup
-◪ *OWNER*
-  │
-  ├─ 🔱 ${prefix}setprefix
-  ├─ 🔱 ${prefix}block
-  ├─ 🔱 ${prefix}bc
-  ├─ 🔱 ${prefix}bcgc
-  ├─ 🔱 ${prefix}clone
-  └─ 🔱 ${prefix}clearall
-  └─ 🔱 ${prefix}pinterest (teks)
+  ├─ 🔱 ${prefix}play [judul lagu]
+  └─ 🔱 ${prefix}joox [judul lagu]
 ◪ *ADAM OEY19*
 `
 }
