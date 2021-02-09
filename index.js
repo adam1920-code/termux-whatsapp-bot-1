@@ -1127,7 +1127,7 @@ case 'timer':
 					if (args.length < 1) return reply('Lirik lagunya mana kak?')
                                         if (!isUser) return reply(mess.only.daftarB)
 					tels = body.slice(7)
-					anu = await fetchJson(`https://arugaz.herokuapp.com/api/lirik?judul=${tels}`, {method: 'get'})
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/wiki?q=${tels}&apikey=BotWeA`, {method: 'get'})
 					reply(anu.result)
 					break
 			case 'igstalk':
