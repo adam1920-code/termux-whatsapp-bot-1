@@ -7,7 +7,7 @@ BUAT BOT    : *HANYA 35K*
 FOLLOW IG   : *@adam_oey107*
 NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
 
-*INI ADALAH MENU SIMPLE YEONGSILL BOT
+*INI ADALAH MENU SIMPLE YEONGSILL BOT*
 ✘ ▬▬▬▬ ஜ۩۞۩ஜ ▬▬▬▬ ✘
         𝙇𝙞𝙨𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙
 ✘ ▬▬▬▬ ஜ۩۞۩ஜ ▬▬▬▬ ✘
