@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *YEONGSILL BOT™* 」
+「 *MUSIC BOT™* 」
 
 DONASI PULSA: *085880029049*
 BUAT BOT    : *HANYA 35K*
