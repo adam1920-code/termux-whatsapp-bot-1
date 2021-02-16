@@ -19,6 +19,8 @@ NOTE : *BERI DELAY 5 DETIK AGAR TIDAK TERJADI SPAM*
 ● *_!wiki [querry]*
 ● *_!tts id [teks]*
 ● *_!spamcall [62831538444]_*
+● *_!pinterest [querry]_*
+● *_!kbbi [teks]_*
 
 вσт ιηι ∂ιвυαт σℓєн:
 A.D.A.M ✔
