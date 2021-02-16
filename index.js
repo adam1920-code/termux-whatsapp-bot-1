@@ -918,7 +918,6 @@ case 'timer':
                                         tels = body.slice(11)
 					client.updatePresence(from, Presence.composing) 
 					data = await fetchJson(`https://api.fdci.se/rep.php?gambar=${tels}`, {method: 'get'})
-                                        if (!isOwner) return reply(mess.only.ownerB)
                                         if (!isUser) return reply(mess.only.daftarB)
 					reply(mess.wait)
 					n = JSON.parse(JSON.stringify(data));
